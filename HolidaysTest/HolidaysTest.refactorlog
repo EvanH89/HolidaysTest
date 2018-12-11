@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="b2345e79-3d28-4faa-9f04-e97fcf7b4596" ChangeDateTime="12/11/2018 22:18:47">
+    <Property Name="ElementName" Value="[dbo].[TBL_Holidays].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBL_Holidays]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HolidayDates" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a0ce95a3-3c82-438d-a758-ae35c56059c7" ChangeDateTime="12/11/2018 22:21:52">
+    <Property Name="ElementName" Value="[dbo].[TBL_Holidays].[HolidayDates]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TBL_Holidays]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+</Operations>
